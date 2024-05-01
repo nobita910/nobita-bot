@@ -21,7 +21,7 @@ module.exports.handleReply = async function({ api, event, handleReply, Threads }
     var { participantIDs, approvalMode, adminIDs } = threadInfo;
     if (participantIDs.includes(senderID)) return api.sendMessage(`you are already in this group.`, threadID, messageID);
     api.addUserToGroup(senderID, ID[body - 1]);
-    if (approvalMode == true && !adminIDs.some(item => item.id) == api.getCurrentUserID()) return api.sendMessage("added you to the group's approval list custom yourself.", threadID, messageID);
+    if (approvalMode == true && !adminIDs.some(item => item.id) == api.getCurrentUserID()) return api.sendMessage("NOBITA-BOT এই গ্রুপে APPROVED করে দিলাম আশা করি আপনাদের আমার রোবট ভালো লাগবে _HAPPY BOT USER 🥳.", threadID, messageID);
     else return api.sendMessage(`you have joined to ${threadInfo.threadName}. check in the message request or spam message, if the group didn't exist in your message box maybe they've turned on the admin approval.`, threadID, messageID);
   } catch (error) {
     return api.sendMessage(`i can't add you to that group\nerror : ${error}`, threadID, messageID);
