@@ -24,18 +24,18 @@ const time = process.uptime(),
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【HH:mm:ss】");
 var link =                                     
-["https://i.postimg.cc/V6Wy6wdr/Picsart-23-12-25-23-44-38-490.jpg",
-"https://i.postimg.cc/d3f5QNmZ/In-Shot-20231116-210842827.jpg",
-"https://i.postimg.cc/65SPBqYb/Picsart-24-01-04-18-28-55-394.jpg"];
+["",
+"",
+" "];
 var callback = () => api.sendMessage({body:`𝐀𝐃𝐌𝐈𝐍 𝐀𝐍𝐃 𝐁𝐎𝐓 𝐈𝐍𝐅𝐎 ❤🪽
 
 ✰𝗕𝗢𝗧 𝗡𝗔𝗠𝗘✰: ${global.config.BOTNAME}
 
-✿︎𝗕𝗼𝘁 𝗔𝗗𝗠𝗜𝗡✿︎ ☞︎︎︎ 𝗦𝗛𝗔𝗪𝗢𝗡 𝗦𝗛𝗘𝗜𝗞𝗛
+✿︎𝗕𝗼𝘁 𝗔𝗗𝗠𝗜𝗡✿︎ ☞︎︎︎ NISAN EDITZ
 
-༆ 𝐁𝐎𝐓 𝐎𝐰𝐧𝐞𝐫 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐃 𝐋𝐢𝐧𝐤 :\n➪ https://www.facebook.com/FAKR.USER.0 
+༆ 𝐁𝐎𝐓 𝐎𝐰𝐧𝐞𝐫 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐈𝐃 𝐋𝐢𝐧𝐤 :\n➪ https://www.facebook.com/nisan.editz2005 
 
-💗 𝙁𝙊𝙍 𝘼𝙉𝙔 𝙆𝙄𝙉𝘿 𝙊𝙁 𝙃𝙀𝙇𝙋  𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝙊𝙉 𝙁𝘽 :\n➪ ✨𝐒𝐇𝐀𝐖𝐎𝐍 𝐒𝐇𝐄𝐈𝐊𝐇 ✨
+💗 𝙁𝙊𝙍 𝘼𝙉𝙔 𝙆𝙄𝙉𝘿 𝙊𝙁 𝙃𝙀𝙇𝙋  𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝙊𝙉 𝙁𝘽 :\n➪ ✨NISAN ✨
 
 ✧━━━━━━━━━━━━━━━❤🪽
 
